@@ -1,16 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 21 10:34:39 2025
 
-@author: stabith
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 11 11:15:41 2025
-
-@author: Theodor Lion Stabile
-"""
 import csv
 import pandas as pd
 import numpy as np
@@ -23,16 +11,6 @@ country_code = list(countries.iloc[:76,0])
 #The number in this list (e.g. 1995,2021) should only be changed when the OECD data is expanded beyond the currenty timeframe.
 #That means once the Supply Use and Demand Use Table by the OECD are updated you can change this once the files are included. 
 years = list(range(2018,2019))
-#Methods are determined by the Bussière et al. (2013) methodology to estimate Import Content Shares
-#Methods:
-# Indirect: "the demand of imports induced by the expenditure on domestically provided goods and services, which include 
-# imports of intermediate inputs from foreign suppliers, as well as imports that are already incorporated in capital,
-# and intermediate inputs acquired from domestic suppliers" (Bussiere Paper)
-
-# Direct:
-    
-# Total: 
-
 
 
 #This variable should be edited by hand. You can add more methods through simply adding them to the list:
